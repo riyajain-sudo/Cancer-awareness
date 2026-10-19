@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ContactForm from './components/ContactForm';
 
 // Replace with '/banner.jpg' if you put an image in public/ or any external URL
@@ -6,7 +6,7 @@ const BANNER_URL = 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528
 
 export default function App() {
   return (
-    <div class="bg-gray-300">
+    <div className="bg-gray-300">
       <Header />
       <Hero />
       <About />
